@@ -21,7 +21,6 @@ Việc nhớ hết các quy định và nghiệp vụ của nhà trường là k
 <Hình 5 - câu hỏi dài của sinh viên>
 
 Với số lượng yêu cầu lớn, việc phản hồi kịp thời là thách thức cho các trường đại học. Nhiều trường đang dần chuyển dịch vụ hỗ trợ từ con người sang hệ thống máy tính thông minh như trợ lý ảo hay chatbot. Nền tảng của hệ thống này là đồ thị tri thức, giúp quản lý kiến thức về nghiệp vụ và nhận diện ý định của sinh viên để hỗ trợ hiệu quả hơn.
-
 ## A.2. Vai trò của Trợ lý Ảo và Đồ thị Tri thức trong Nâng cao Hiệu quả Hỗ trợ Sinh viên
 Trong bối cảnh hiện đại, trợ lý ảo đang trở nên phổ biến và ngày càng đóng vai trò quan trọng, do đó việc nâng cao hiệu quả của chúng là điều cần thiết. Một trong những yếu tố quyết định sự thành công của các trợ lý ảo chính là khả năng hiểu và đáp ứng đúng yêu cầu của người dùng. Trong xử lý ngôn ngữ, yêu cầu của người dùng có thể được tóm tắt dưới dạng “khung ngữ nghĩa” (semantic frame), bao gồm ý định và các thông tin cần thiết khác. Trong hệ thống hỗ trợ sinh viên, việc nhận diện ý định của người dùng không chỉ quan trọng cho tự động hóa mà còn giúp cán bộ xử lý câu hỏi dễ dàng. Thay vì đọc toàn bộ câu hỏi dài, cán bộ chỉ cần xem thông tin tóm lược trong khung ngữ nghĩa để hiểu vấn đề và phản hồi nhanh chóng.
 
@@ -38,12 +37,10 @@ Xây dựng đồ thị tri thức là quá trình quan trọng để tổ chứ
 Khám phá và rút trích quan hệ từ dữ liệu thô không chỉ đòi hỏi khả năng xác định đúng các thực thể mà còn cần xác định chính xác bản chất của mối quan hệ giữa chúng. Các mối quan hệ này có thể là các liên kết trực tiếp (như giữa sinh viên và khóa học đã đăng ký) hoặc các mối quan hệ phức tạp hơn, liên quan đến quy định, quy chế và điều kiện cụ thể. Quá trình rút trích quan hệ chính xác giúp hệ thống có thể suy luận và cung cấp thông tin phù hợp dựa trên bối cảnh, giảm thiểu thời gian xử lý và nâng cao độ chính xác trong phản hồi.
 
 Phương pháp rút trích quan hệ hiện đại sử dụng các kỹ thuật xử lý ngôn ngữ tự nhiên và học máy để phát hiện ra các kiểu quan hệ tiềm năng giữa các thực thể, sau đó tích hợp các quan hệ này vào cấu trúc đồ thị tri thức. Các hệ thống này có khả năng học và mở rộng dựa trên dữ liệu đầu vào mới, giúp đồ thị tri thức liên tục phát triển và phản ánh chính xác mối quan hệ thực tế.
-
 ## A.3. Mục tiêu nghiên cứu
 Dựa trên vấn đề đã trình bày, nhóm nghiên cứu đặt ra hai mục tiêu chính:
 - Xây dựng một framework nhằm khám phá các mối quan hệ mới từ các tập thực thể và mối quan hệ đã biết.
 - Đề xuất phương pháp cho nhiệm vụ "khám phá quan hệ".
-
 ## A.4 Phạm vi đề tài
 ## A.5 Cấu trúc Bài viết
 Nội dung còn lại của báo cáo sẽ được trình bày theo cấu trúc dưới đây:
@@ -62,8 +59,6 @@ Trong chương này, nhóm sẽ trình bày các thông tin chi tiết về dữ
 
 ### Chương 6: Tổng kết
 Chương này sẽ tóm tắt các kết quả đạt được của nhóm so với mục tiêu ban đầu, bao gồm những thành tựu đã hoàn thành và những điểm cần cải thiện. Đồng thời, bảng phân chia khối lượng công việc của các thành viên trong nhóm cũng sẽ được công bố trong chương này.
-
-
 # B. Cơ sở lý thuyết
 ## B.1. Cơ chế Attention (“Attention is All You Need”)
 Cơ chế Attention (Sự chú ý) là một khái niệm quan trọng trong lĩnh vực học sâu, đặc biệt trong các mô hình xử lý ngôn ngữ tự nhiên và thị giác máy. Dưới đây là giải thích chi tiết về cách hoạt động của cơ chế Attention:
@@ -87,7 +82,7 @@ Quy trình hoạt động của Attention thường được mô tả qua các b
 ### 4. Tính toán Attention
 Công thức tính Attention có thể được biểu diễn như sau:
 
-![alt text](./image.png)
+![alt text](/image.png)
 
 Trong đó:
 - 𝑄: Q là ma trận Query.
@@ -100,8 +95,8 @@ Cơ chế Attention đã được áp dụng rộng rãi trong các mô hình nh
 Cơ chế Attention là một trong những phát minh quan trọng nhất trong học sâu, giúp các mô hình trở nên mạnh mẽ hơn trong việc xử lý và hiểu thông tin phức tạp. Nhờ có Attention, mô hình có khả năng tập trung vào những phần quan trọng nhất của dữ liệu, từ đó cải thiện hiệu suất và độ chính xác trong các nhiệm vụ khác nhau.
 
 Nguồn tham khảo: https://arxiv.org/pdf/1706.03762
-
-## B.2. Pre-trained language model (Các mô hình ngôn ngữ huấn luyện trước)
+## B.2. Mô hình transformers
+## B.3. Pre-trained language model (Các mô hình ngôn ngữ huấn luyện trước)
 Các mô hình huấn luyện trước là các mạng nơ-ron hoặc mô hình máy học đã được đào tạo trên một tập dữ liệu lớn, thường đòi hỏi nhiều tài nguyên tính toán và thời gian. Những mô hình này có thể được tinh chỉnh hoặc áp dụng trực tiếp cho các nhiệm vụ cụ thể, nhờ vào việc khai thác các đặc điểm và mẫu đã học từ tập dữ liệu ban đầu. Mô hình huấn luyện trước đặc biệt có giá trị trong các trường hợp mà việc đào tạo mô hình từ đầu không khả thi do hạn chế về dữ liệu, tài nguyên tính toán hoặc thời gian.
 
 Một số mô hình huấn luyện trước nổi bật hiện nay như BERT [12], GPT [52], và RoBERTa [30] đóng vai trò quan trọng trong lĩnh vực xử lý ngôn ngữ tự nhiên, nhờ vào khả năng nắm bắt và hiểu ngữ cảnh của văn bản một cách hiệu quả.
@@ -209,8 +204,7 @@ LLaMA hoạt động dựa trên một số nguyên lý chính sau:
 - Cải tiến dựa trên phản hồi: LLaMA có thể được tinh chỉnh dựa trên phản hồi từ người dùng và kết quả thực tế để cải thiện hiệu suất trên các tác vụ cụ thể.
 
 Mô hình LLaMA đại diện cho một bước tiến quan trọng trong việc phát triển các mô hình ngôn ngữ lớn, với mục tiêu cung cấp khả năng xử lý ngôn ngữ tự nhiên mạnh mẽ và hiệu quả. Nhờ vào kiến trúc Transformer và các phương pháp huấn luyện tiên tiến, LLaMA đã cho thấy khả năng linh hoạt và hiệu suất cao trên nhiều tác vụ khác nhau, trở thành một công cụ hữu ích trong lĩnh vực nghiên cứu và ứng dụng NLP.
-
-## B.3. Knowledge Graph (đồ thị tri thức)
+## B.4. Knowledge Graph (đồ thị tri thức)
 Khái niệm "đồ thị tri thức" được lần đầu tiên giới thiệu vào năm 1972 bởi nhà ngôn ngữ học người Úc, Edgar W. Schneider, trong một cuộc thảo luận về việc xây dựng hệ thống hướng dẫn mô-đun cho các khóa học. Tuy nhiên, phải đến năm 2012, khi Google ra mắt "Google Knowledge Graph" để cải thiện công cụ tìm kiếm của mình, khái niệm này mới được sử dụng rộng rãi. Kể từ đó, ngày càng nhiều đồ thị tri thức đã được phát triển và được áp dụng tích cực trong nhiều lĩnh vực khác nhau.
 
 Mặc dù đồ thị tri thức đã được nghiên cứu một cách sâu rộng, nhưng vẫn còn nhiều sự không rõ ràng trong việc đưa ra một định nghĩa chính xác cho khái niệm này. Nhiều nỗ lực đã được thực hiện để mô tả đồ thị tri thức. Theo phần lớn các nghiên cứu, đồ thị tri thức được coi là một cấu trúc được thiết kế nhằm tích lũy và truyền đạt tri thức về thế giới thực, trong đó các nút đại diện cho các thực thể quan tâm và các cạnh biểu thị mối quan hệ giữa những thực thể này. Về mặt hình thức, đồ thị tri thức có thể được xem như một đồ thị có hướng (G), được định nghĩa là G = (V, E), trong đó V đại diện cho các đỉnh hoặc nút tương ứng với các thực thể trong thế giới thực, và E đại diện cho các cạnh hoặc liên kết thể hiện mối quan hệ giữa các thực thể này.
@@ -227,10 +221,39 @@ Lingfeng Zhong và các đồng nghiệp đã tổng hợp từ nhiều nguồn 
 
 Hàm SoftMax là một hàm toán học thường được sử dụng trong các mô hình phân loại đa lớp để chuyển đổi một vector thành xác suất. Hàm này nhận vào một vector các giá trị thực và xuất ra một vector có cùng kích thước, trong đó mỗi giá trị là xác suất của từng lớp. Hàm Log SoftMax, mặt khác, là logarit tự nhiên của giá trị đầu ra của hàm SoftMax. Việc sử dụng Log SoftMax giúp cải thiện độ ổn định số học và hiệu suất tính toán, đặc biệt là trong các bài toán có nhiều lớp.
 ### Quy trình chung để xây dựng đồ thị tri thức
-#### Knowledge Acquisition
-#### Knowledge Refinement
-#### Knowledge Evolution
+Dữ liệu để xây dựng đồ thị tri thức có thể được thu thập từ nhiều nguồn khác nhau và ở nhiều định dạng khác nhau, chẳng hạn như trang web, bảng tính, hình ảnh, cơ sở dữ liệu và văn bản. Những dữ liệu này có thể mang tính chất khác nhau, bao gồm có cấu trúc, bán cấu trúc và phi cấu trúc. Quá trình xây dựng đồ thị tri thức trải qua ba giai đoạn chính: Knowledge Acquisition (Thu thập tri thức), Knowledge Refinement (Tinh chỉnh tri thức) và Knowledge Evolution (Tiến hóa tri thức). Mỗi giai đoạn sẽ tạo ra kết quả là đồ thị tri thức ở những dạng khác nhau.
 
+#### Giai đoạn "Thu thập tri thức" (Knowledge Acquisition)
+Bước này tiếp nhận đầu vào là dữ liệu để thực hiện rút trích thông tin. Đối với dữ liệu phi cấu trúc, quá trình rút trích yêu cầu áp dụng các kỹ thuật xử lý ngôn ngữ tự nhiên phức tạp và thường phải trải qua các bước sau:
+
+- Entity Discovery: Giai đoạn xác định các khái niệm (concepts) trong dữ liệu có thể tạo thành các node trong đồ thị tri thức, bao gồm ba bước nhỏ hơn:
+
+    - Named Entity Recognition: Nhận diện các thực thể có tên trong dữ liệu và phân loại chúng thành các kiểu thực thể sơ bộ như người, tổ chức, v.v.
+    - Entity Typing: Xác định kiểu thực thể chi tiết cho các thực thể vừa được nhận diện.
+    - Entity Linking: Liên kết thực thể đã khám phá với một node trên đồ thị tri thức (nếu không có, sẽ tạo ra node mới).
+- Coreference Resolution: Đây là quá trình xác định các đề cập (mention) có cùng tham chiếu đến các thực thể giống nhau hay không.
+
+- Relation Extraction: Giai đoạn này liên quan đến việc trích xuất các mối quan hệ giữa các thực thể có trong dữ liệu. Thông thường, nhiệm vụ này sẽ phân loại các quan hệ vừa trích xuất vào các kiểu quan hệ đã được định sẵn. Tuy nhiên, nếu không có lược đồ sẵn có, đây sẽ được coi là một bài toán Open Relation Extraction (rút trích quan hệ mở).
+
+Sau khi hoàn thành giai đoạn này, kết quả sẽ là Raw Knowledge Graph (KG), tức là đồ thị tri thức được tạo ra từ các bộ ba, mặc dù vẫn còn tồn tại sai sót và chưa hoàn chỉnh.
+
+#### Giai đoạn "Tinh chỉnh tri thức" (Knowledge Refinement)
+Đây là bước nhằm hoàn thiện Raw Knowledge Graph (KG) được tạo ra từ giai đoạn trước, thông qua việc tham khảo một KG đã tồn tại cho bài toán này hoặc những vấn đề tương tự. Quá trình này bao gồm hai bước chính:
+
+- Knowledge Graph Completion: Giai đoạn này tập trung vào việc dẫn xuất thêm các bộ ba mới từ những bộ ba đã đầy đủ, nhằm hoàn thiện các bộ ba chưa hoàn chỉnh.
+
+- Knowledge Fusion: Do yêu cầu thực tiễn luôn thay đổi và kiến thức về thế giới bên ngoài không ngừng cập nhật, trong hầu hết các trường hợp, đồ thị tri thức bên ngoài sẽ được thêm vào để làm phong phú cho đồ thị tri thức hiện có. Đây là hình thức sáp nhập các đồ thị lại với nhau.
+
+Kết quả của giai đoạn này là một đồ thị tri thức đã được tinh chỉnh, đảm bảo tính chính xác và đầy đủ hơn so với phiên bản ban đầu.
+
+#### Giai đoạn "Tiến hóa tri thức" (Knowledge Evolution)
+Đây là giai đoạn nâng cao hình thức của đồ thị tri thức, bao gồm các bước Condition KG Completion, Condition Knowledge Acquisition và Knowledge Dynamics. Kết quả của giai đoạn này là một đồ thị tri thức đã được cải tiến và nâng cao hơn.
+
+Quá trình phát triển đồ thị tri thức thường được chia thành hai phương pháp: từ trên xuống (top-down) và từ dưới lên (bottom-up). Với phương pháp từ trên xuống, trước tiên người ta xây dựng ontology (hay lược đồ tri thức) và sau đó trích xuất tri thức dựa trên ontology này. Ngược lại, phương pháp từ dưới lên bắt đầu bằng việc trích xuất tri thức trực tiếp từ dữ liệu, rồi dựa vào đó để xây dựng ontology của đồ thị tri thức.
+
+Nhiều cách thức và công cụ đã được phát triển để lưu trữ đồ thị tri thức. Trong giai đoạn đầu, các đồ thị thường được lưu trữ trong các hệ quản trị cơ sở dữ liệu quan hệ (RDBMS) do tính đáng tin cậy và các toán tử CRUD (Create, Read, Update, Delete) giúp việc truy xuất trở nên thuận tiện. Tuy nhiên, cách thức này có thể rất tốn kém, đặc biệt là đối với các đồ thị tri thức thưa.
+
+Các cơ sở dữ liệu phi quan hệ như key/value cũng đã được sử dụng để lưu trữ đồ thị tri thức, chẳng hạn như Trinity, Probase, và CouchDB. Những xu hướng hứa hẹn cho công nghệ này là các cơ sở dữ liệu tài liệu (document databases) như NoSQL và các cơ sở dữ liệu đồ thị như Neo4j. Ngoài ra, một số ngôn ngữ đã được phát triển để lưu trữ các đồ thị tri thức, chẳng hạn như RDF và OWL. Triple store là một dạng cơ sở dữ liệu được thiết kế đặc biệt để lưu trữ các bộ ba của đồ thị, phát triển dựa trên những ngôn ngữ này.
 ## B.5. Kỹ thuật Prompt (Prompt Engineering)
 Kỹ thuật Prompt Engineering là một phương pháp tối ưu hóa đầu vào cho các mô hình ngôn ngữ, nhằm cải thiện kết quả đầu ra. Thay vì chỉ đơn thuần sử dụng văn bản đầu vào, người dùng có thể thiết kế các câu hỏi hoặc hướng dẫn cụ thể để khai thác sức mạnh của mô hình. Kỹ thuật này rất quan trọng trong việc tối ưu hóa hiệu suất của các mô hình ngôn ngữ đã được huấn luyện trước, giúp tăng cường độ chính xác và sự phù hợp của các câu trả lời mà mô hình tạo ra trong các ứng dụng thực tế. Bên dưới là các kỹ thuật promt (promt technique) hiện nay.
 
@@ -252,10 +275,10 @@ Kỹ thuật Prompt Engineering là một phương pháp tối ưu hóa đầu v
 - Reflexion
 - Multimodal CoT Prompting
 - GraphPrompts
-
 # C. Các công trình liên quan
 ## C.1. Xây dựng Knowledge Graph (đồ thị tri thức)
 ## C.2. LMs như Knowledge-Base (LMs as knowledge bases)
 ## C.3. Tính nhất quán của các mô hình ngôn ngữ (Consistency of LMs)
-
+## C.4. Nhận diện thực thể đã đặt tên (Named Entity Recognition - NER)
+## C.4. Rút trích quan hệ (Relation Extraction)
 # D. Phương pháp thực hiện
