@@ -87,7 +87,7 @@ Quy trình hoạt động của Attention thường được mô tả qua các b
 ### 4. Tính toán Attention
 Công thức tính Attention có thể được biểu diễn như sau:
 
-![alt text](image.png)
+![alt text](./image.png)
 
 Trong đó:
 - 𝑄: Q là ma trận Query.
