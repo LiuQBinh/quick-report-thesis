@@ -96,6 +96,9 @@ Cơ chế Attention là một trong những phát minh quan trọng nhất trong
 
 Nguồn tham khảo: https://arxiv.org/pdf/1706.03762
 ## B.2. Mô hình transformers
+### Tổng Quan Mô Hình
+
+
 ## B.3. Pre-trained language model (Các mô hình ngôn ngữ huấn luyện trước)
 Các mô hình huấn luyện trước là các mạng nơ-ron hoặc mô hình máy học đã được đào tạo trên một tập dữ liệu lớn, thường đòi hỏi nhiều tài nguyên tính toán và thời gian. Những mô hình này có thể được tinh chỉnh hoặc áp dụng trực tiếp cho các nhiệm vụ cụ thể, nhờ vào việc khai thác các đặc điểm và mẫu đã học từ tập dữ liệu ban đầu. Mô hình huấn luyện trước đặc biệt có giá trị trong các trường hợp mà việc đào tạo mô hình từ đầu không khả thi do hạn chế về dữ liệu, tài nguyên tính toán hoặc thời gian.
 
@@ -281,4 +284,5 @@ Kỹ thuật Prompt Engineering là một phương pháp tối ưu hóa đầu v
 ## C.3. Tính nhất quán của các mô hình ngôn ngữ (Consistency of LMs)
 ## C.4. Nhận diện thực thể đã đặt tên (Named Entity Recognition - NER)
 ## C.4. Rút trích quan hệ (Relation Extraction)
+
 # D. Phương pháp thực hiện
