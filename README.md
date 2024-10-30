@@ -97,8 +97,6 @@ Cơ chế Attention là một trong những phát minh quan trọng nhất trong
 Nguồn tham khảo: https://arxiv.org/pdf/1706.03762
 ## B.2. Mô hình transformers
 ### Tổng Quan Mô Hình
-
-
 ## B.3. Pre-trained language model (Các mô hình ngôn ngữ huấn luyện trước)
 Các mô hình huấn luyện trước là các mạng nơ-ron hoặc mô hình máy học đã được đào tạo trên một tập dữ liệu lớn, thường đòi hỏi nhiều tài nguyên tính toán và thời gian. Những mô hình này có thể được tinh chỉnh hoặc áp dụng trực tiếp cho các nhiệm vụ cụ thể, nhờ vào việc khai thác các đặc điểm và mẫu đã học từ tập dữ liệu ban đầu. Mô hình huấn luyện trước đặc biệt có giá trị trong các trường hợp mà việc đào tạo mô hình từ đầu không khả thi do hạn chế về dữ liệu, tài nguyên tính toán hoặc thời gian.
 
@@ -164,7 +162,7 @@ RoBERTa là một trong những mô hình ngôn ngữ mạnh mẽ nhất hiện 
 
 
 ### Mô hình BART
-BART (Bidirectional and Auto-Regressive Transformers) là một mô hình ngôn ngữ được phát triển bởi Facebook AI Research, ra mắt vào năm 2019. BART kết hợp các yếu tố của hai loại mô hình ngôn ngữ chính: mô hình sinh (generative models) và mô hình phân loại (discriminative models). Mô hình này được thiết kế để thực hiện nhiều tác vụ trong xử lý ngôn ngữ tự nhiên (NLP), bao gồm tóm tắt văn bản, dịch máy, và sinh văn bản.
+BART (Bidirectional and Auto-Regressive Transformer) là một mô hình ngôn ngữ của Facebook AI, kết hợp hai kỹ thuật huấn luyện tiên tiến: mã hóa hai chiều và giải mã tự hồi quy. Được thiết kế cho các tác vụ tạo và chỉnh sửa văn bản, BART đặc biệt mạnh trong việc tóm tắt, dịch máy, và khôi phục văn bản thiếu sót. BART sử dụng kiến trúc Transformer, với bộ mã hóa giúp hiểu ngữ cảnh toàn diện, trong khi bộ giải mã tạo ra văn bản dựa trên các thông tin đã học. Mô hình này được thiết kế để thực hiện nhiều tác vụ trong xử lý ngôn ngữ tự nhiên (NLP), bao gồm tóm tắt văn bản, dịch máy, và sinh văn bản.
 
 BART sử dụng kiến trúc Transformer và có khả năng xử lý văn bản một cách linh hoạt, cho phép nó tái cấu trúc và tạo ra nội dung mới từ văn bản đầu vào. Một trong những điểm nổi bật của BART là khả năng kết hợp giữa việc sử dụng các phương pháp sinh tự động và khả năng hiểu ngữ nghĩa từ văn bản.
 
@@ -207,6 +205,8 @@ LLaMA hoạt động dựa trên một số nguyên lý chính sau:
 - Cải tiến dựa trên phản hồi: LLaMA có thể được tinh chỉnh dựa trên phản hồi từ người dùng và kết quả thực tế để cải thiện hiệu suất trên các tác vụ cụ thể.
 
 Mô hình LLaMA đại diện cho một bước tiến quan trọng trong việc phát triển các mô hình ngôn ngữ lớn, với mục tiêu cung cấp khả năng xử lý ngôn ngữ tự nhiên mạnh mẽ và hiệu quả. Nhờ vào kiến trúc Transformer và các phương pháp huấn luyện tiên tiến, LLaMA đã cho thấy khả năng linh hoạt và hiệu suất cao trên nhiều tác vụ khác nhau, trở thành một công cụ hữu ích trong lĩnh vực nghiên cứu và ứng dụng NLP.
+
+### Mô hình LLaMA2
 ## B.4. Knowledge Graph (đồ thị tri thức)
 Khái niệm "đồ thị tri thức" được lần đầu tiên giới thiệu vào năm 1972 bởi nhà ngôn ngữ học người Úc, Edgar W. Schneider, trong một cuộc thảo luận về việc xây dựng hệ thống hướng dẫn mô-đun cho các khóa học. Tuy nhiên, phải đến năm 2012, khi Google ra mắt "Google Knowledge Graph" để cải thiện công cụ tìm kiếm của mình, khái niệm này mới được sử dụng rộng rãi. Kể từ đó, ngày càng nhiều đồ thị tri thức đã được phát triển và được áp dụng tích cực trong nhiều lĩnh vực khác nhau.
 
